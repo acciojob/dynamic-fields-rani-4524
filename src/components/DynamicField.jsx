@@ -28,7 +28,7 @@ const DynamicField = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        console.log("submitted Data:" , fields);
+        console.log(fields);
         
     }
   return (
